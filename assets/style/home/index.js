@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
   countYear();
   countClients();
   countProjects();
-  countProjectsInWork();  
-  Preloader()
+  countProjectsInWork();
+  Preloader();
 });
 touchToOpen.addEventListener("click", function () {
   hiddenNavigation.style.maxHeight = "1000rem";
@@ -29,8 +29,8 @@ function countYear() {
   const countInterval = setInterval(() => {
     x++;
     countNumberYear.textContent = `${x}`;
-    if(x === 2014){
-      clearInterval(countInterval)
+    if (x === 2014) {
+      clearInterval(countInterval);
     }
   }, 100);
 }
@@ -39,8 +39,8 @@ function countProjects() {
   const countInterval = setInterval(() => {
     x++;
     countNumberProjects.textContent = `${x}`;
-    if(x === 304){
-      clearInterval(countInterval)
+    if (x === 304) {
+      clearInterval(countInterval);
     }
   }, 10);
 }
@@ -49,8 +49,8 @@ function countClients() {
   const countInterval = setInterval(() => {
     x++;
     countNumberClients.textContent = `${x}`;
-    if(x === 189){
-      clearInterval(countInterval)
+    if (x === 189) {
+      clearInterval(countInterval);
     }
   }, 10);
 }
@@ -59,8 +59,8 @@ function countProjectsInWork() {
   const countInterval = setInterval(() => {
     x++;
     countNumberProjectsInWorks.textContent = `${x}`;
-    if(x === 12){
-      clearInterval(countInterval)
+    if (x === 12) {
+      clearInterval(countInterval);
     }
   }, 100);
 }
